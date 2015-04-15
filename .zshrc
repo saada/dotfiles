@@ -64,9 +64,6 @@ source $HOME/.dotfiles/bin/bin.zsh
 # docker
 source $HOME/.dotfiles/docker/docker.zsh
 
-# git subrepo
-source $HOME/plugins/git-subrepo/init
-
 # aws stuff
 source $HOME/.dotfiles/keys/aws/aws.zsh
 

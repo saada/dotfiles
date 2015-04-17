@@ -52,6 +52,9 @@ source $HOME/Vagrant/CentOS/Staffingnation/ec2beds-config/dev/.devopsrc
 ######
 #Paths
 ######
+# aliases
+source $HOME/.dotfiles/aliases.zsh
+
 # golang
 source $HOME/.dotfiles/go/gopath.zsh
 

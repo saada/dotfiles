@@ -1,3 +1,3 @@
 #!/bin/bash
 pip install awscli
-brew install icdiff
+brew install icdiff docker docker-machine docker-compose docker-swarm

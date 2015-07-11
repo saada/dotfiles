@@ -61,8 +61,8 @@ source $HOME/.dotfiles/go/gopath.zsh
 # ruby
 source $HOME/.dotfiles/ruby/ruby.zsh
 
-# bin
-source $HOME/.dotfiles/bin/bin.zsh
+# path
+source $HOME/.dotfiles/path/path.zsh
 
 # docker
 source $HOME/.dotfiles/docker/docker.zsh

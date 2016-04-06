@@ -7,7 +7,8 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="miloshadzic"
 # ZSH_THEME="avit"
-ZSH_THEME="wedisagree"
+# ZSH_THEME="wedisagree"
+ZSH_THEME="bullet-train"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -64,6 +65,9 @@ source $HOME/.dotfiles/ruby/ruby.zsh
 # path
 source $HOME/.dotfiles/path/path.zsh
 
+# git
+source $HOME/.dotfiles/git/git.zsh
+
 # docker
 source $HOME/.dotfiles/docker/docker.zsh
 
@@ -75,3 +79,8 @@ source $HOME/.dotfiles/keys/digitalocean/digitalocean.zsh
 
 # ansible
 source $HOME/.dotfiles/ansible/ansible.zsh
+
+BULLETTRAIN_PROMPT_CHAR=\➤
+
+# homebrew paths
+export PATH="/usr/local/sbin:$PATH"

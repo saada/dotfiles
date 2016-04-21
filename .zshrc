@@ -80,7 +80,8 @@ source $HOME/.dotfiles/keys/digitalocean/digitalocean.zsh
 # ansible
 source $HOME/.dotfiles/ansible/ansible.zsh
 
-BULLETTRAIN_PROMPT_CHAR=\➤
+#BULLETTRAIN_PROMPT_CHAR=\➤
+BULLETTRAIN_PROMPT_CHAR=🐈
 
 # homebrew paths
 export PATH="/usr/local/sbin:$PATH"
